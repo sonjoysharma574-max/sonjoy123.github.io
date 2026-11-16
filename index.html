@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MR BOT - Digital Platform</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#080b12;color:white;font-family:Arial, sans-serif}
+header{background:#111722;padding:20px;display:flex;justify-content:space-between;align-items:center}
+.logo{font-size:25px;font-weight:bold;color:#ff3030;letter-spacing:1px}
+nav{text-align:center;padding:12px;background:#101620;overflow-x:auto;white-space:nowrap}
+nav a{color:white;text-decoration:none;margin:0 10px;display:inline-block;font-size:13px;transition:0.3s}
+nav a:hover{color:#ff3030}
+.notice{background:#ff3030;color:white;text-align:center;padding:8px;font-size:12px;font-weight:bold}
+.hero{text-align:center;padding:65px 12px;background:linear-gradient(130deg,#171c2c,#300d17)}
+.hero h1{font-size:38px;margin-bottom:10px}
+.hero span{color:#ff3030}
+.hero p{color:#bbb;margin-bottom:20px}
+.search-box{margin-top:15px}
+.search-box input{padding:10px 15px;width:80%;max-width:350px;border-radius:6px;border:1px solid #343d4b;background:#111722;color:white;outline:none}
+.container{padding:25px 15px;max-width:950px;margin:auto}
+.section-title{color:#ff4545;border-bottom:1px solid #222c3d;padding-bottom:8px;margin-top:35px;font-size:20px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:15px;margin-top:15px}
+.card{background:#151d29;padding:22px 12px;border:1px solid #343d4b;border-radius:12px;text-align:center;transition:0.2s}
+.card:hover{border-color:#ff3030;transform:translateY(-3px)}
+.card h3{color:#ff4545;font-size:16px;margin-bottom:8px}
+.card p{color:#aaa;font-size:12px;margin-bottom:15px}
+.btn{background:#e92735;color:white;padding:10px 16px;text-decoration:none;border-radius:6px;display:inline-block;font-size:13px;font-weight:bold}
+.btn:hover{background:#ff3030}
+footer{text-align:center;padding:25px;color:#888;margin-top:40px;background:#111722;border-top:1px solid #1a2332}
+.social-links{margin-bottom:10px}
+.social-links a{color:#ff3030;text-decoration:none;margin:0 8px;font-size:14px}
+</style>
+</head>
+<body>
+
+<div class="notice">🔥 Welcome to MR BOT! Join our Telegram Community for latest updates.</div>
+
+<header>
+<div class="logo">MR BOT</div>
+<a class="btn" href="#login">LOGIN</a>
+</header>
+
+<nav>
+<a href="#home">HOME</a>
+<a href="#tools">TOOLS</a>
+<a href="#apps">APPS STORE</a>
+<a href="#courses">COURSES</a>
+<a href="#bots">TELEGRAM BOTS</a>
+<a href="#scripts">SCRIPTS</a>
+</nav>
+
+<div id="home" class="hero">
+<h1>WELCOME TO <span>MR BOT</span></h1>
+<p>Your Ultimate Digital Tools, Bots & Cyber Learning Platform</p>
+<a class="btn" href="#tools">EXPLORE NOW</a>
+<div class="search-box">
+<input type="text" placeholder="Search tools, apps, courses...">
+</div>
+</div>
+
+<div class="container">
+
+<!-- TOOLS SECTION -->
+<h2 id="tools" class="section-title">Online Tools</h2>
+<div class="cards">
+<div class="card"><h3>Password Generator</h3><p>Explore Password Generator on MR BOT.</p><a class="btn" href="#" onclick="alert('Password Generator will be activated soon.');return false;">Explore</a></div>
+<div class="card"><h3>QR Code Generator</h3><p>Explore QR Code Generator on MR BOT.</p><a class="btn" href="#" onclick="alert('QR Code Generator will be activated soon.');return false;">Explore</a></div>
+<div class="card"><h3>Text Converter</h3><p>Explore Text Converter on MR BOT.</p><a class="btn" href="#" onclick="alert('Text Converter will be activated soon.');return false;">Explore</a></div>
+<div class="card"><h3>IP Information</h3><p>Explore IP Information on MR BOT.</p><a class="btn" href="#" onclick="alert('IP Information will be activated soon.');return false;">Explore</a></div>
+</div>
+
+<!-- APPS STORE -->
+<h2 id="apps" class="section-title">Apps Store</h2>
+<div class="cards">
+<div class="card"><h3>Android Apps</h3><p>Explore Android Apps on MR BOT.</p><a class="btn" href="#" onclick="alert('Android Apps will be activated soon.');return false;">Explore</a></div>
+<div class="card"><h3>Productivity Apps</h3><p>Explore Productivity Apps on MR BOT.</p><a class="btn" href="#" onclick="alert('Productivity Apps will be activated soon.');return false;">Explore</a></div>
+<div class="card"><h3>Security Apps</h3><p>Explore Security Apps on MR BOT.</p><a class="btn" href="#" onclick="alert('Security Apps will be activated soon.');return false;">Explore</a></div>
+<div class="card"><h3>Utility Apps</h3><p>Explore Utility Apps on MR BOT.</p><a class="btn" href="#" onclick="alert('Utility Apps will be activated soon.');return false;">Explore</a></div>
+</div>
+
+<!-- COURSES -->
+<h2 id="courses" class="section-title">Learning Courses</h2>
+<div class="cards">
+<div class="card"><h3>Python Basics</h3><p>Explore Python Basics on MR BOT.</p><a class="btn" href="#" onclick="alert('Python Basics will be activated soon.');return false;">Explore</a></div>
+<div class="card"><h3>Web Development</h3><p>Explore Web Development on MR BOT.</p><a class="btn" href="#" onclick="alert('Web Development will be activated soon.');return false;">Explore</a></div>
+<div class="card"><h3>Cybersecurity Basics</h3><p>Explore Cybersecurity Basics on MR BOT.</p><a class="btn" href="#" onclick="alert('Cybersecurity Basics will be activated soon.');return false;">Explore</a></div>
+<div class="card"><h3>Linux Basics</h3><p>Explore Linux Basics on MR BOT.</p><a class="btn" href="#" onclick="alert('Linux Basics will be activated soon.');return false;">Explore</a></div>
+</div>
+
+<!-- TELEGRAM BOTS -->
+<h2 id="bots" class="section-title">Telegram Bots</h2>
+<div class="cards">
+<div class="card"><h3>Utility Bots</h3><p>Explore Utility Bots on MR BOT.</p><a class="btn" href="#" onclick="alert('Utility Bots will be activated soon.');return false;">Explore</a></div>
+<div class="card"><h3>Educational Bots</h3><p>Explore Educational Bots on MR BOT.</p><a class="btn" href="#" onclick="alert('Educational Bots will be activated soon.');return false;">Explore</a></div>
+<div class="card"><h3>Community Bots</h3><p>Explore Community Bots on MR BOT.</p><a class="btn" href="#" onclick="alert('Community Bots will be activated soon.');return false;">Explore</a></div>
+<div class="card"><h3>AI Bots</h3><p>Explore AI Bots on MR BOT.</p><a class="btn" href="#" onclick="alert('AI Bots will be activated soon.');return false;">Explore</a></div>
+</div>
+
+<!-- SCRIPTS -->
+<h2 id="scripts" class="section-title">Python & Termux Scripts</h2>
+<div class="cards">
+<div class="card"><h3>Telegram Bot Template</h3><p>Explore Telegram Bot Template on MR BOT.</p><a class="btn" href="#" onclick="alert('Telegram Bot Template will be activated soon.');return false;">Explore</a></div>
+<div class="card"><h3>Termux Auto Setup</h3><p>Explore Termux Auto Setup on MR BOT.</p><a class="btn" href="#" onclick="alert('Termux Auto Setup will be activated soon.');return false;">Explore</a></div>
+<div class="card"><h3>IP Tracker Script</h3><p>Explore IP Tracker Script on MR BOT.</p><a class="btn" href="#" onclick="alert('IP Tracker Script will be activated soon.');return false;">Explore</a></div>
+<div class="card"><h3>Web Scraper Basic</h3><p>Explore Web Scraper Basic on MR BOT.</p><a class="btn" href="#" onclick="alert('Web Scraper Basic will be activated soon.');return false;">Explore</a></div>
+</div>
+
+</div>
+
+<footer>
+<div class="social-links">
+<a href="https://t.me/" target="_blank">Telegram Channel</a> | 
+<a href="https://github.com/" target="_blank">GitHub</a> | 
+<a href="#">Contact Us</a>
+</div>
+<p>MR BOT © 2026 | LEARN • EXPLORE • PROTECT</p>
+</footer>
+
+</body>
+</html>
